@@ -27,6 +27,7 @@ fetch(urlApi, {
   .then(function (response) {
     return response.json();
   })
+  //intégration des produit sur la page principal avec leur image,nom,description.
   .then(function (response) {
     console.log(response);
     response.forEach((element) => {
